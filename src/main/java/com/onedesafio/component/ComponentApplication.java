@@ -17,8 +17,6 @@ public class ComponentApplication implements CommandLineRunner {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(ComponentApplication.class, args);
-		
-		
 	}
 	
 	@Override
@@ -29,9 +27,9 @@ public class ComponentApplication implements CommandLineRunner {
 		System.out.printf("Pedido código %d \nValor total: R$ %.2f \n",
 				order1.getCode(),orderService.Total(order1));
 		System.out.printf("Pedido código %d \nValor total: R$ %.2f \n",
-				order1.getCode(),orderService.Total(order2));
+				order2.getCode(),orderService.Total(order2));
 		System.out.printf("Pedido código %d \nValor total: R$ %.2f \n",
-				order1.getCode(),orderService.Total(order3));
+				order3.getCode(),orderService.Total(order3));
 		
     }
 	
