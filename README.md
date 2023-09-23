@@ -1,4 +1,4 @@
-<H1 align="center">Desafio Modelo de domínio e ORM</H1>
+<H1 align="center">DESAFIO Componentes e injeção de dependência</H1>
 <p align="center">Resolução do DESAFIO Componentes e injeção de dependência - Bootcamp Java Spring Professional</p>
 
 ## Descrição do Projeto
